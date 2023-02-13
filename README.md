@@ -1,5 +1,10 @@
 # git_tutorial
-This is a basic tutorial for new users to play around with git
+This is a basic tutorial for new users to play around with git.
+
+# Contribute to this repository!
+1. Create a Fork
+2. Change something
+3. Create a pull request
 
 
 # Basic git commands:
