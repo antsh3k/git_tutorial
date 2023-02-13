@@ -1,6 +1,7 @@
 print('Hello World!')
 
-# Enter code below:
+print('welcome to the course')
 
-print('welcome')
+# Enter code below:
+## Feel free to add a line of code below here and create a pull request!
 
