@@ -8,7 +8,11 @@ The wrapping requirements are simple:
 - Each present comes in a box with dimensions: length, width, and height.
 - To wrap a box, you need enough material to cover all six sides plus a little extra for the smallest side as a spare.
 
-The list of presents which need to be wrapped can be generated in __challenge_1.py__
+The list of presents which need to be wrapped can be generated in your terminal using the following command:
+
+```bash
+python challenge_1.py
+```
 
 For example, if a box has dimensions `2x3x4`:
 - The surface area of the box is `2 × (2 × 3 + 3 × 4 + 4 × 2) = 52`.
