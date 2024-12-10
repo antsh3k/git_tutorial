@@ -1,4 +1,5 @@
 import csv
+import random
 
 def generate_box_dimensions(num_boxes, seed=None):
     """
