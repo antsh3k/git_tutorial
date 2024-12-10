@@ -74,3 +74,9 @@ For example, for a box with dimensions `2x3x4`:
 - The total ribbon needed is `10 + 24 = 34`.
 
 If you’re up for it, modify your program to calculate **both** wrapping material and ribbon needed! Good luck!
+
+__Expected Output:__
+
+"The total wrapping paper needed is: *{calculated wrapping paper total}*"
+
+"The total ribbon needed is: *{calculated ribbon total}*"
