@@ -6,7 +6,11 @@ data = pd.read_csv("list_of_presents.csv", sep = "x", header = 0,  names = ["Len
 
 def total_material(L,W,H):
   sa = 2*(L*W+W*H+H*L)
-  extra = L*W
+  sorted_dims = sorted([L, W, H])
+  min = sorted_dims[0]
+  mid = sorted_dims[1]
+  max = sorted_dims[2]
+  extra = min*mid
   total = sa + extra
   return total
 
