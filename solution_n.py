@@ -2,14 +2,14 @@ import pandas as pd
 
 def solution(input_data):
     df = pd.read_csv(input_data)
-    list_of_presenets = df['Box Dimensions'].to_list()
+    list_of_presents = df['Box Dimensions'].to_list()
     del df
 
     full_list = []
     combined_wrapping_paper_total = 0
     combined_ribbon_total = 0
 
-    for present in list_of_presenets:
+    for present in list_of_presents:
         # Split and get Int values for each boxes dimensions
         dimensions = list(map(int, present.split('x')))
         # Sort Dimensions so that smallest measures are always in positions 0 and 1
