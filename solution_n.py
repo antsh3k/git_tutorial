@@ -33,7 +33,6 @@ def solution(input_data):
 
     print(f'Calculated Wrapping Paper Total: {combined_wrapping_paper_total}')
     print(f'Calculated Ribbon Total: {combined_ribbon_total}')
-    print(full_list)
 
 
 if __name__ == "__main__":
