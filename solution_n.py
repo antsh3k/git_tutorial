@@ -21,11 +21,11 @@ def solution(input_data):
         # Get Box Volume
         box_volume = dimensions[0]*dimensions[1]*dimensions[2]
         # Calculate Wrapping Paper Required for Box
-        wrapping_paper_total = 2*(smallest_dimension+second_dimension+third_dimension)+smallest_dimension
+        wrapping_paper_total = (2*(smallest_dimension+second_dimension+third_dimension))+smallest_dimension
         # Add to Wrapping Paper Catch-All Calculation
         combined_wrapping_paper_total+= wrapping_paper_total
         # Calculate Ribbon Needed for Box
-        ribbon_total = smallest_dimension+box_volume
+        ribbon_total = 2*(dimensions[0]+dimensions[1])+box_volume
         # Add to Ribbon Catch-All Calculation
         combined_ribbon_total += ribbon_total
         #Append all Results to full list
@@ -33,6 +33,7 @@ def solution(input_data):
 
     print(f'Calculated Wrapping Paper Total: {combined_wrapping_paper_total}')
     print(f'Calculated Ribbon Total: {combined_ribbon_total}')
+    print(full_list)
 
 
 if __name__ == "__main__":
