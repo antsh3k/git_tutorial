@@ -2,7 +2,7 @@ import pandas
 
 # Import csv into dataframe, extract dimensions and remove Box Dimensions string from dataframe
 df = pandas.read_csv("list_of_presents.csv")
-df[['Length', 'Width', 'Height']] = df['Box Dimensions'].str.extract('(\d{1,2})x(\d{1,2})x(\d{1,2})').astype(int)
+df[['Length', 'Width', 'Height']] = df['Box Dimensions'].str.extract(r'(\d{1,2})x(\d{1,2})x(\d{1,2})').astype(int)
 del df['Box Dimensions']
 
 # Sort dimensions, converting df from a dataframe to a series
